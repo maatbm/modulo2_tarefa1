@@ -1,14 +1,12 @@
-import './App.css'
-import countCard from './components/countCard/contCard.tsx'
+import './App.css';
+import CountCard from './components/countCard/CountCard.tsx';
 
 function App() {
   return (
     <>
-
-    <countCard />
-    
+      <CountCard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
